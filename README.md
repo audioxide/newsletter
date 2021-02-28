@@ -8,3 +8,9 @@ Latest content data, for dummy purposes: https://api.audioxide.com/latest.json
 
 - [HTML email basics](https://templates.mailchimp.com/getting-started/html-email-basics/)
 - [Where to edit template code](https://mailchimp.com/help/where-to-edit-template-code/)
+
+## Pseudocode
+
+- Check data for content published in a certain month
+- For each piece of content in a given section, generate a section of the newsletter
+- Spit out HTML template that can be pasted into Mailchimp
