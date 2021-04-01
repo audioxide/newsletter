@@ -8,6 +8,7 @@ Latest content data, for dummy purposes: https://api.audioxide.com/latest.json
 
 - [HTML email basics](https://templates.mailchimp.com/getting-started/html-email-basics/)
 - [Where to edit template code](https://mailchimp.com/help/where-to-edit-template-code/)
+- [Going fully in-house a la Dense Discovery](https://www.densediscovery.com/notes/behind-the-scenes/)
 
 ## Pseudocode
 
