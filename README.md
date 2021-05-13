@@ -2,7 +2,8 @@
 
 Program to pull through site data and generate 90% of monthly newsletters. We currently use Mailchimp, which works fine but is a little tedious to fill in manually. The goal here is to populate a HTML template with content published that month. Ideally all that's left to do will be a quick proof read and introductory paragraph.
 
-Latest content data, for dummy purposes: https://api.audioxide.com/latest.json
+- Latest content data: https://api.audioxide.com/latest.json
+- All reviews: https://api.audioxide.com/reviews.json
 
 ### Resources
 
