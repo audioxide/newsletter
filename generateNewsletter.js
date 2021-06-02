@@ -1,23 +1,41 @@
 const fetch = require("node-fetch");
 
-// Receive desired month and year
+// Set date range
 
-const month = "May";
-const year = 2021;
+const from = new Date("2021-03-31").getTime();
+const to = new Date("2021-05-01").getTime();
 
 // Check for albums in time range
 
 fetch('https://api.audioxide.com/reviews.json')
   .then(response => response.json())
   .then(data => {
-    let tally = data.length;
-    console.log("Audioxide has reviewed " + data.length + " albums. They are:");
-    for (let i = 0; i < tally; i++) {
-      console.log("‘" + data[i].metadata.album + "’ by " + data[i].metadata.artist);
+    let tally = data.length - 1;
+    console.log("Albums reviewed in time range");
+    for (let i = tally; i > 0; i--) {
+      var publishDate = new Date(data[i].metadata.created).getTime();
+      if (publishDate >= from && publishDate <= to) {
+        console.log("‘" + data[i].metadata.album + "’ by " + data[i].metadata.artist);
+      }
     }
+    console.log("\n");
   });
 
 // Check for articles in time range
+
+fetch('https://api.audioxide.com/articles.json')
+  .then(response => response.json())
+  .then(data => {
+    let tally = data.length - 1;
+    console.log("Articles published in time range");
+    for (let i = tally; i > 0; i--) {
+      var publishDate = new Date(data[i].metadata.created).getTime();
+      if (publishDate >= from && publishDate <= to) {
+        console.log("‘" + data[i].metadata.title + "’ by " + data[i].metadata.author.name);
+      }
+    }
+    console.log("\n");
+  });
 
 // Check for interviews in time range
 
