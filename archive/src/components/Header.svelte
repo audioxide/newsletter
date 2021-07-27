@@ -18,7 +18,7 @@
     /* Navbar container */
     header {
         overflow: hidden;
-        background-color: #333;
+        background-color: #282828;
         font-family: Arial, sans-serif;
     }
 
