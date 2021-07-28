@@ -18,7 +18,7 @@
 
 	<June2021 />
 
-	<LinkToMainSite />
+	<!-- <LinkToMainSite /> -->
 
 </section>
 
