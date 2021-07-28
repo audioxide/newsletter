@@ -1,19 +1,19 @@
 <h3>Audioxide Archive</h3>
 
-<span>Blah blah blah</span>
+<p>Three friends reporting from the soundscapes.</p>
 
 <div class="newsletter-signup-box">
     <label for="email">Enter your email:</label>
     <input type="email" id="email" name="email">
 </div>
 
-<span>Blah blah blah blah blah blah</span>
+<p>Monthly roundups of our album reviews, articles, interviews, and other delightful things. We've been chatting shit about people way more talented than us since 2015, so trust us, we know what we're doing.</p>
 <ul>
-    <li>Blah</li>
-    <li>Blah</li>
-    <li>Blah</li>
+	<li>Independent music journalism</li>
+	<li>The stories behind album artwork</li>
+	<li>Open source web development</li>
 </ul>
-<span>Blah blah blah blah blah blah</span>
+<p>Follow us on Facebook, Twitter, and RSS. Become a supporter. Browse our code.</p>
 
 <style>
     .newsletter-signup-box {
