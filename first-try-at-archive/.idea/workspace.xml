@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b9c8d53-0df8-449b-90f1-2c25710175aa" name="Default Changelist" comment="# &lt;- Subject line - keep to a max 50 characters -&gt;|&#10;&#10;# &lt;- Multi-line description, try to limit each line to max 72 chars --&gt;|&#10;&#10;&#10;# Guides for writing good commit messages (always include the 'why'!):&#10;# * https://github.com/alphagov/styleguides/blob/master/git.md&#10;# * https://www.annashipman.co.uk/jfdi/good-pull-requests.html&#10;# * https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html&#10;#&#10;# Uncomment the next line if co-authored:&#10;# Co-authored-by: Frederick O'Brien &lt;frederick.obrien@guardian.co.uk&gt;&#10;# Co-authored-by: Leigh-Anne Mathieson &lt;leigh-anne.mathieson@guardian.co.uk&gt;&#10;# Co-authored-by: Simone Smith  &lt;simone.smith@guardian.co.uk&gt;&#10;# Co-authored-by: Roberto Tyley &lt;roberto.tyley@guardian.co.uk&gt;&#10;# Co-authored-by: David Furey &lt;david.furey@guardian.co.uk&gt;&#10;#&#10;#&#10;# If you want git to always use this commit message template&#10;# (eg you're an Ophan Developer), execute:&#10;#&#10;# git config --global commit.template ~/code/ophan/docs/developing-ophan/ophan-team-template.gitmessage.txt&#10;#&#10;# --- COMMIT END ---">
+      <change beforePath="$PROJECT_DIR$/../my-app/static/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/static/favicon.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Header" />
+        <option value="SignupBox" />
+        <option value="ArchivePreview" />
+        <option value="TestNewsletter" />
+        <option value="LinkToMainSite" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1vuSHjO96Fu8NYUOpcI7eqAHbVl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b9c8d53-0df8-449b-90f1-2c25710175aa" name="Default Changelist" comment="" />
+      <created>1627410395175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627410395175</updated>
+      <workItem from="1627410397386" duration="4362000" />
+      <workItem from="1627432930723" duration="2070000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
