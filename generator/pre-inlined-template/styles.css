@@ -133,6 +133,12 @@ a[x-apple-data-detectors] {
 
 /* LAYOUT */
 
+.audioxide-logo {
+  width: 25%;
+  margin: auto;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+
 hr {
   background: #f5f5f5;
   border: 0;
@@ -234,4 +240,10 @@ hr {
 
 .artwork-story-image:hover {
   opacity: 0.8;
+}
+
+/* SECTION BLOCKS */
+
+.album-review-section  {
+  background: #f5f5f5;
 }
