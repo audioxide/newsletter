@@ -2,30 +2,19 @@
 </script>
 
 	<header>
-		<span class="header-text">Receive Audioxide roundups every month → <a href="https://eepurl.com/cox6qr" class="signup-link">Sign up here</a></span>
+		<span class="header-text"><span class="logo">Audioxide</span> <strong>Archive</strong> <a href="https://audioxide.eo.page/newsletter" class="signup-link">Receive our monthly roundups</a> →</span>
 		<div class="dropdown">
 			<button class="dropbtn">Browse Archive
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="#">July 02021</a>
-				<a href="#">June 02021</a>
-				<a href="#">May 02021</a>
+				<a href="/newsletters/2021-07">July 02021</a>
+				<a href="/newsletters/2021-06">June 02021</a>
+				<a href="/newsletters/2021-05">May 02021</a>
 			</div>
 		</div>
 
 	</header>
-
-	<!-- <nav>
-		<ul>
-			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
-			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
-		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
-	</nav> -->
 
 <style>
 	header {
@@ -34,24 +23,13 @@
 		position: fixed;
         top: 0;
 		width: 100%;
-	}
-
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
+		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
 	}
 
 	nav {
 		display: flex;
 		justify-content: center;
 		--background: rgba(255, 255, 255, 0.7);
-	}
-
-	path {
-		fill: var(--background);
 	}
 
 	ul {
@@ -88,7 +66,7 @@
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 1em;
+		padding: 0;
 		color: var(--heading-color);
 		font-weight: 700;
 		font-size: 0.8rem;
