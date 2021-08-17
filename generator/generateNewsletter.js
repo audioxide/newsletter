@@ -4,10 +4,10 @@ const path = require('path')
 
 // Settings
 
-const from = new Date("2021-07-01").getTime();
-const to = new Date("2021-07-31").getTime();
+const from = new Date("2021-01-01").getTime();
+const to = new Date("2021-02-01").getTime();
 
-const month = "July"
+const month = "June"
 const year = "2021"
 
 const reviewsJson = 'https://api.audioxide.com/reviews.json';
@@ -23,59 +23,82 @@ async function buildNewsletter() {
   var newsletterHtml = 
     `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-      xmlns:o="urn:schemas-microsoft-com:office:office">
+        xmlns:o="urn:schemas-microsoft-com:office:office">
     
     <head>
-      <!--[if gte mso 9]><xml>
+        <!--[if gte mso 9]><xml>
        <o:OfficeDocumentSettings>
         <o:AllowPNG/>
         <o:PixelsPerInch>96</o:PixelsPerInch>
        </o:OfficeDocumentSettings>
       </xml><![endif]-->
-      <!-- fix outlook zooming on 120 DPI windows devices -->
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
-      <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
-      <meta name="format-detection" content="date=no"> <!-- disable auto date linking in iOS 7-9 -->
-      <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS 7-9 -->
-      <title>Audioxide Archive</title>
-      <link rel="icon" type="image/x-icon" href="audioxide.com/favicon.ico">
-      <link rel="stylesheet" type="text/css" href="styles.css">
-      <link rel="stylesheet" type="text/css" href="responsive.css">
+        <!-- fix outlook zooming on 120 DPI windows devices -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
+        <meta name="format-detection" content="date=no"> <!-- disable auto date linking in iOS 7-9 -->
+        <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS 7-9 -->
+        <title>July 02021 on Audioxide</title>
+        <link rel="stylesheet" type="text/css" href="newsletter-styles.css">
     </head>
     
     <body style="margin:0; padding:0;" bgcolor="#F0F0F0" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
     
-      <!-- 100% background wrapper (grey background) -->
-      <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#fff">
-        <tr>
-          <td align="center" valign="top" bgcolor="#F0F0F0" style="background-color: #fff;">
+        <!-- 100% background wrapper (grey background) -->
+        <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
     
-            <br>
+            <tr>
+                <td align="center" valign="top" bgcolor="#F0F0F0" style="background-color: #ffffff;">
     
-            <!-- 600px container (white background) -->
-            <table border="0" width="600" cellpadding="0" cellspacing="0" class="container">
-              <tr>
-                <td class="container-padding header" align="left">
-                  Audioxide
-                </td>
-              </tr>
-              <tr>
-                <td class="container-padding content" align="left">
-                  <br>
-                  <div class="title">${month} 0${year}</div>
-                  <div class="title-blurb">Cheddar cheese and Brighton rocks</div>
-                  <br>
+                    <!-- 600px container (white background) -->
+                    <table border="0" width="600" cellpadding="0" cellspacing="0" class="container">
     
-                  <div class="body-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat felis sed euismod blandit. Donec ac iaculis velit.</p>
-                    <p> Maecenas cursus leo vel dui ullamcorper tincidunt. Pellentesque at massa sed ex lobortis volutpat. Aenean lorem arcu, ornare sed urna nec, aliquam euismod eros. Donec nisi arcu, fermentum at accumsan at, condimentum eu lorem. Non mollis dui cursus et. In et efficitur leo.</p>
-                    <p>Mauris eu sapien ac urna fermentum lacinia. Nam eu egestas massa, nec aliquam lorem. Vestibulum molestie metus ant.</p>
-                    <p>Be well,</p>
-                    <p>André, Fred, and Andrew </p>
-                  </div>
+                        <!-- INTRODUCTION -->
     
-                  <hr />`
+                        <tr>
+                            <td>
+                                <img src="https://thefall.org/news/pics/mpollard_photos/20_nsg.jpg" style="border-bottom-left-radius: 5px;
+                                            border-bottom-right-radius: 5px;">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <img src="https://raw.githubusercontent.com/audioxide/brand/main/assets/png/bordered-emblem-black-and-white.png"
+                                    style="width: 20%; 
+                                           margin-left: auto;
+                                           margin-right: auto;
+                                           margin-top: -70px; 
+                                           display: block; 
+                                           filter: drop-shadow(0 0 0.6rem rgb(90, 90, 90));">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="container-padding opening-blurb" align="left">
+                                <p style="text-align: center; margin-bottom: -20px;">July 02021</p>
+                                <h2>This really is It</h2>
+                                <p>Snappy opening line(s).</p>
+                                <p>Aliquam non tortor at ipsum dictum rhoncus. Nulla facilisi.
+                                    Sed ipsum lacus, porttitor ac sapien ut, sollicitudin ultricies massa. Nulla facilisi.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus, est eu tristique
+                                    molestie, velit sem finibus nibh, interdum tempor felis enim in ante. Maecenas nisi
+                                    libero, faucibus sit amet augue et, elementum venenatis tellus.</p>
+                                <p>Ut ornare velit nec urna gravida dignissim. Integer at ultricies risus. Donec semper
+                                    luctus augue a pellentesque. Aliquam non tortor at ipsum dictum rhoncus. Nulla facilisi.
+                                    Sed ipsum lacus, porttitor ac sapien ut, sollicitudin ultricies massa. Nulla facilisi.
+                                </p>
+                                <p>Signing off,</p>
+                                <p>André, Fred, and Andrew</p>
+                            </td>
+                        </tr>
+    
+                        <tr class="spacer">
+                            <td>
+                                <!-- SPACER -->
+                            </td>
+                        </tr>`
   ;
 
   // Check for and add reviews in time range
@@ -85,11 +108,21 @@ async function buildNewsletter() {
   .then(data => {
     let tally = data.length - 1;
     newsletterHtml = newsletterHtml.concat(`
-    <!-- ALBUM REVIEWS -->
-        
-    <section>
+    <!-- REVIEWS -->
 
-      <h2>Album Reviews</h2>`
+                    <tr style="background-color: white;">
+                        <td class="container-padding">
+                            <table>
+                                <tr>
+                                    <td class="section-header" align="left">
+                                        <h3><span class="section-header-wrap">Reviews</span></h3>
+                                    </td>
+                                </tr>
+                                <tr class="spacer">
+                                    <td>
+                                        <!-- SPACER -->
+                                    </td>
+                                </tr>`
       )
     for (let i = tally; i > 0; i--) {
       var publishDate = new Date(data[i].metadata.created).getTime();
@@ -97,38 +130,61 @@ async function buildNewsletter() {
         var imageSource = data[i].metadata.featuredimage["medium-square"]
         var primaryColor = data[i].metadata.colours[0]
         newsletterHtml = newsletterHtml.concat(
-          `<table width="204" border="0" cellpadding="0" cellspacing="0" align="left" class="force-row">
-            <tr>
-              <td class="col" valign="top">
-                <img class="album-artwork"
-                  src=${imageSource}
-                  style="border: 3px solid ${primaryColor};">
-              </td>
-            </tr>
-          </table>
+          `<tr>
+                <td>
+                    <!--[if mso]>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="50%" valign="top"><![endif]-->
 
-          <table width="284" border="0" cellpadding="0" cellspacing="0" align="right" class="force-row">
-            <tr>
-              <td class="col" valign="top">
-                <h3 class="review-album" style="color: ${primaryColor};">${data[i].metadata.album}</h3>
-                <h3 class="review-artist">${data[i].metadata.artist}</h3>
-                <p class="review-summary">‘${data[i].metadata.summary}’</p>
-                <span class="review-link"><a href="https://audioxide.com/reviews/${data[i].metadata.slug}/">Full
-                    review</a> →</span>
-              </td>
-            </tr>
-          </table>
-          
-          <hr class="invisible-divider">
-                <br />
-                <br />`
+                    <table width="215" border="0" cellpadding="0" cellspacing="0" align="left"
+                        class="force-row">
+                        <tr>
+                            <td class="col" valign="top">
+                                <img src="${imageSource}"
+                                    alt="Album artwork of '${data[i].metadata.album}' by ${data[i].metadata.artist}"
+                                    class="album-artwork" style="border: 3px solid ${primaryColor};">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
+
+                    <table width="355" border="0" cellpadding="0" cellspacing="0" align="right"
+                        class="force-row">
+                        <tr>
+                            <td class="col" valign="top">
+                                <div class="review-info">
+                                    <h4 class="review-album-name" style="color: ${primaryColor};">${data[i].metadata.album}</h4>
+                                    <h4>${data[i].metadata.artist}</h4>
+                                    <p class="review-summary">‘${data[i].metadata.summary}’</p>
+                                    <p><a href="https://audioxide.com/reviews/${data[i].metadata.slug}/">Read full review</a> →</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!--[if mso]></td></tr></table><![endif]-->
+
+
+                    <!--/ end example -->
+
+                    <div class="hr" style="clear: both;">&nbsp;</div>
+                </td>
+            </tr>      
+                `
           )          
       }
     }
     newsletterHtml = newsletterHtml.concat(`
-    <hr class="invisible-divider">
+    </table>
+                        </td>
+                    </tr>
 
-    <hr />`)
+                    <tr class="spacer">
+                        <td>
+                            <!-- SPACER -->
+                        </td>
+                    </tr>`)
   });
   
   // Check for and add articles in time range
@@ -138,28 +194,49 @@ async function buildNewsletter() {
   .then(data => {
     let tally = data.length - 1;
     newsletterHtml = newsletterHtml.concat(`
-    <section>
-      <h2>Articles</h2>`);
+    <tr style="background-color: white;">
+                        <td class="container-padding">
+                            <table>
+                                <tr>
+                                    <td class="section-header" align="left">
+                                        <h3><span class="section-header-wrap">Articles</span></h3>
+                                    </td>
+                                </tr>
+                                <tr class="spacer">
+                                    <td>
+                                        <!-- SPACER -->
+                                    </td>
+                                </tr>`);
     for (let i = tally; i > 0; i--) {
       var publishDate = new Date(data[i].metadata.created).getTime();
       if (publishDate >= from && publishDate <= to) {
         newsletterHtml = newsletterHtml.concat(`
-        <div class="article-card">
-        <img class="article-image" src="${data[i].metadata.featuredimage["medium-original"]}">
-        <h3 class="article-title">${data[i].metadata.title}</h3>
-        <p class="body-text">${data[i].metadata.summary}</p>
-        <span class="article-link"><a href="https://audioxide.com/articles/${data[i].metadata.slug}/">Full
-          article</a> →</span>
-      </div>
+      <tr>
+          <td>
+              <img src="${data[i].metadata.featuredimage["medium-original"]}"
+                                            class="article-image">
+              <h4>${data[i].metadata.title}</h4>
+              <p>${data[i].metadata.summary}</p>
+              <p><a href="https://audioxide.com/articles/${data[i].metadata.slug}/">Read article</a> →</p>
+              <div class="hr">&nbsp;</div>
+          </td>
+        </tr>
 
-      <hr class="invisible-divider">
-      <br />
-      <br />
         `
         );
       }
     }
-    newsletterHtml = newsletterHtml.concat("\n")
+    newsletterHtml = newsletterHtml.concat(`
+    </table>
+                        </td>
+                    </tr>
+
+                    <tr class="spacer">
+                        <td>
+                            <!-- SPACER -->
+                        </td>
+                    </tr>
+    `)
   });
 
 
@@ -172,89 +249,128 @@ async function buildNewsletter() {
   // Add album artwork stories, site development, footer, and CSS
 
   newsletterHtml = newsletterHtml.concat(
-    `<section>
+    `<!-- ARTWORK STORIES -->
 
-    <h2>Artwork Stories</h2>
+    <tr style="background-color: white;">
+        <td class="container-padding">
+            <table>
+                <tr>
+                    <td class="section-header" align="left">
+                        <h3><span class="section-header-wrap">Artwork stories</span></h3>                                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus, est
+                            eu tristique
+                            molestie, velit sem finibus nibh, interdum tempor felis enim in ante.
+                            Maecenas nisi
+                            libero, faucibus sit amet augue et, elementum venenatis tellus.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="#">
+                                        <img src="https://audioxide.com/api/images/album-artwork/this-nations-saving-grace-the-fall-medium-square.jpg"
+                                            alt="Album artwork alt text" class="story-artwork"
+                                            style="border: 3px solid #6ea375;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <img src="https://audioxide.com/api/images/album-artwork/hello-nasty-beastie-boys-medium-square.jpg"
+                                            alt="Album artwork alt text" class="story-artwork" style="border: 3px solid #000000; 
+                                                   margin: auto; 
+                                                   display: block;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <img src="https://audioxide.com/api/images/album-artwork/the-college-dropout-kanye-west-medium-square.jpg"
+                                            alt="Album artwork alt text" class="story-artwork" style="border: 3px solid #3b1415; 
+                                                   float: right;">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
 
-      <p class="body-text">We added 24 album artwork credits to the database this month. Not all masterpieces, but not half bad, etc.</p>
+                <tr>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus, est
+                            eu tristique
+                            molestie, velit sem finibus nibh, interdum tempor felis enim in ante.
+                            Maecenas nisi
+                            libero, faucibus sit amet augue et, elementum venenatis tellus.</p>
+                    </td>
+                </tr>
 
-      <div class="artwork-story-box">
-        <div class="one">
-          <a href="#">
-          <img class="artwork-story-image"
-              src="https://audioxide.com/api/images/album-artwork/straight-outta-compton-nwa-medium-square.jpg"
-              style="border: 3px solid black;">
-          </a>
-        </div>
-        <div class="two">
-          <a href="#">
-          <img class="artwork-story-image"
-              src="https://audioxide.com/api/images/album-artwork/on-the-beach-neil-young-medium-square.jpg"
-              style="border: 3px solid lightblue;">
-            </a>
-        </div>
-        <div class="three">
-          <a href="#">
-          <img class="artwork-story-image"
-              src="https://audioxide.com/api/images/album-artwork/in-utero-nirvana-medium-square.jpg"
-              style="border: 3px solid darkred;">
-            </a>
-        </div>
-        <div class="four">
-          <a href="#">
-          <img class="artwork-story-image"
-              src="https://audioxide.com/api/images/album-artwork/the-specials-the-specials-medium-square.jpg"
-              style="border: 3px solid black;">
-            </a>
-        </div>
-      </div>
+            </table>
+        </td>
+    </tr>
 
-      <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi. Nam semper ultricies erat, et hendrerit ligula sagittis non. Integer ac enim eu leo aliquam luctus.</p>
+    <tr class="spacer">
+        <td>
+            <!-- SPACER -->
+        </td>
+    </tr>
 
-    <hr class="invisible-divider">
+    <!-- SITE DEVELOPMENT -->
 
-  </section>
+    <tr>
+        <td class="container-padding">
+            <table>
+                <tr>
+                    <td class="section-header" align="left">
+                        <h3><span class="section-header-wrap">Site development</span></h3>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td style="background-color: white;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus, est eu tristique
+                            molestie, velit sem finibus nibh, interdum tempor felis enim in ante. Maecenas nisi
+                            libero, faucibus sit amet augue et, elementum venenatis tellus.</p>
+                        <p>Ut ornare velit nec urna gravida dignissim. Integer at ultricies risus. Donec semper
+                            luctus augue a pellentesque. Aliquam non tortor at ipsum dictum rhoncus.</p>
+                        <img src="https://audioxide-wiki.neocities.org/Images/audioxide-archive-preview.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus, est eu tristique
+                            molestie, velit sem finibus nibh, interdum tempor felis enim in ante. Maecenas nisi
+                            libero, faucibus sit amet augue et, elementum venenatis tellus.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 
-  <hr />
+    <!-- FOOTER -->
 
-  <!-- SITE DEVELOPMENT -->
+    <tr>
+        <td class="container-padding footer-text" align="left">
+            <br><br>
+            &copy; Audioxide. All rights reserved. <a href="#">Newsletter powered by EmailOctopus</a>.
+            <br><br>
 
-  <section>
+            You are receiving this newsletter because you opted in on our website, or perhaps someone
+            with your email address wanted you to suffer. In any case you can <a href="#">unsubscribe
+                from this list</a>.
+            <br><br>
 
-    <h2>Site Development</h2>
+            <strong>Acme, Inc.</strong><br>
+            <span class="ios-footer">
+                123 Main St.<br>
+                Springfield, MA 12345<br>
+            </span>
+            <a href="http://www.acme-inc.com">www.acme-inc.com</a><br>
 
-    <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi. Nam semper ultricies erat, et hendrerit ligula sagittis non. Integer ac enim eu leo aliquam luctus.</p>
+            <br><br>
 
-    <img src="https://audioxide-wiki.neocities.org/Images/abbey-road-album-credit.png">
-
-    <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi. Nam semper ultricies erat, et hendrerit ligula sagittis non. Integer ac enim eu leo aliquam luctus.</p>
-
-    <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi.</p>
-
-  </section>
-
-  <!--[if mso]></td></tr></table><![endif]-->
-
-
-  <!--/ end example -->
-
-<tr>
-<td class="container-padding footer-text" align="left">
-  <br><br>
-  &copy; Audioxide. All rights reserved.
-  <br><br>
-
-  You are receiving this newsletter because you opted in on our website, or perhaps someone with your 
-  email address wanted you to suffer. Update your <a href="#">email
-    preferences</a> or <a href="#">unsubscribe</a>.
-  <br><br>
-
-  <a href="https://www.audioxide.com">www.audioxide.com</a><br>
-
-  <br><br>
-
-</td>
-</tr>
+        </td>
+    </tr>
 </table>
 <!--/600px container -->
 
@@ -267,46 +383,137 @@ async function buildNewsletter() {
 </body>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
-@import url(//db.onlinewebfonts.com/c/4387b781fdcc752283b72bdc76757065?family=All+Round+Gothic);
+/* CUSTOM STYLING. TIDY UP LATER */
 
-h1, h2, h3, h4, h5, h6,
-.header,
-.title,
-.subtitle,
-.footer-text,
-.title-blurb,
-.review-link,
-.test {
-  font-family: 'Source Sans Pro', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+.section-header {
+  text-align: center;
+  background-color: white;
+  color: #f5f5f5;
+  border-radius: 5px;
 }
 
-a, a:visited {
-    color: #f01d4f;
+.section-header-wrap {
+  background-color: black; 
+  padding: 15px 25px; 
+  border-radius: 5px; 
+  filter: drop-shadow(0 0 0.3rem rgb(90, 90, 90));
+}
+
+.opening-blurb {
+  background-color: #ffffff;
+  line-height: 28px;
+  /*
+  clip-path: polygon(
+    0 0,
+    100% 0, 
+    100% 100%,
+    0 95%
+  );
+  */
+}
+
+.container-padding {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.review-album-name {
+  font-style: italic;
+}
+
+.review-summary {
+  font-family: 'Spectral', serif;
+  font-style: italic;
+  line-height: 22px;
+}
+
+.album-artwork {
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.story-artwork {
+  border-radius: 5px;
+  width: 95%;
+}
+
+.story-artwork:hover {
+  opacity: 0.7;
+}
+
+p {
+  font-size: 17px;
 }
 
 h2 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 28px;
+  text-align: center;
 }
 
 h3 {
-    margin: 10px 0px;
+  font-size: 24px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 5px 0;
+}
+
+a, a:visited {
+  color: #f01d4f;
+}
+
+a:hover {
+  color: pink;
 }
 
 img {
+  -ms-interpolation-mode: bicubic;
   width: 100%;
+}
+
+.section {
+  padding-bottom: 40px;
+}
+
+.spacer {
+  background-color: white;
+  height: 30px;
+}
+
+.article-image {
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+}
+
+.review-info {
+  padding-left: 30px;
+}
+
+.funnyfarm-image {
+  border-radius: 5px;
+}
+
+/* ------------------------------------------------------- */
+
+p, h1, h2, h3, h4, h5, h6,
+.header,
+.title,
+.subtitle,
+.footer-text {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .header {
   font-size: 24px;
+  font-weight: bold;
   padding-bottom: 12px;
-  color: #000;
-  text-align: center;
-  text-transform: lowercase;
-  font-family: "All Round Gothic";
+  color: #DF4726;
 }
 
 .footer-text {
@@ -323,17 +530,10 @@ img {
   max-width: 600px;
 }
 
-.container-padding {
-  padding-left: 44px;
-  padding-right: 44px;
-}
-
 .content {
   padding-top: 12px;
   padding-bottom: 12px;
-  border-radius: 10px;
   background-color: #ffffff;
-  /* box-shadow: 0px 0px 12px 5px #1f1f1f; */
 }
 
 code {
@@ -343,23 +543,21 @@ code {
   font-size: 12px;
 }
 
+hr {
+  border: 0;
+  border-bottom: 1px solid #000000;
+}
+
+.hr {
+  height: 1px;
+  border-bottom: 2px solid #f5f5f5;
+  margin: 15px 0;
+}
+
 .title {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   color: #374550;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.title-blurb {
-  font-size: 24px;
-  font-weight: 700;
-  color: #374550;
-  text-align: center;
-}
-
-.opening-blurb {
-    font-size: 16px;
 }
 
 .subtitle {
@@ -367,22 +565,20 @@ code {
   font-weight: 600;
   color: #2469A0;
 }
-
 .subtitle span {
   font-weight: 400;
   color: #999999;
 }
 
 .body-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  line-height: 22px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   text-align: left;
   color: #333333;
 }
 
 .col {
-  font-family: 'Spectral', serif;
   font-size: 14px;
   line-height: 20px;
   text-align: left;
@@ -400,112 +596,7 @@ a[x-apple-data-detectors] {
   line-height: inherit !important;
 }
 
-/* LAYOUT */
-
-hr {
-  background: #f5f5f5;
-  border: 0;
-  height: 2px;
-  width: 95%;
-  margin: 20px 0px;
-}
-
-.invisible-divider {
-    clear: both;
-    background: none;
-    margin: 0px;
-}
-
-.spacer {
-  padding: 50px;
-}
-
-/* ALBUM REVIEWS */
-
-.album-artwork {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.review-album {
-    font-size: 20px;
-    font-style: italic;
-}
-
-.review-artist {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.review-summary {
-    font-style: italic;
-    font-size: 15px;
-    line-height: 22px;
-}
-
-.review-link {
-    font-weight: 500;
-    font-size: 15px;
-}
-
-/* ARTICLES */
-
-.article-card {
-
-}
-
-.article-image {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.article-title {
-  font-weight: 500;
-}
-
-.article-link {
-  font-weight: 500;
-  font-size: 15px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-/* ARTWORK STORIES */
-
-.artwork-story-box {
-  display: flex;
-  width: 98%;
-}
-
-.one {
-  flex: 1 1 auto;
-  padding-right: 5px;
-}
-
-.two {
-  flex: 1 1 auto;
-  padding: 0px 5px;
-}
-
-.three {
-  flex: 1 1 auto;
-  padding: 0px 5px;
-}
-
-.four {
-  flex: 1 1 auto;
-  padding-left: 5px;
-}
-
-.artwork-story-image {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.artwork-story-image:hover {
-  opacity: 0.8;
-}
-
-/* RESPONSIVE.CSS */
+/* RESPONSIVE */
 
 body {
     margin: 0;
@@ -545,10 +636,6 @@ body {
     mso-table-rspace: 0pt;
   }
   
-  img {
-    -ms-interpolation-mode: bicubic;
-  }
-  
   .yshortcuts a {
     border-bottom: none !important;
   }
@@ -559,11 +646,17 @@ body {
       width: 100% !important;
       max-width: 100% !important;
     }
+    .review-info {
+      padding-left: 0;
+    }
   }
   @media screen and (max-width: 400px) {
     .container-padding {
       padding-left: 12px !important;
       padding-right: 12px !important;
+    }
+    .review-info {
+      padding-left: 0;
     }
   }
   .ios-footer a {
