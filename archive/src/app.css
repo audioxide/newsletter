@@ -47,9 +47,8 @@ body::before {
 	flex-direction: column;
 }
 
-p,h1,h2,h3,h4,h5,h6,li,label {
+p,h1,h2,h3,h4,h5,h6,li,label,a {
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #000;
 }
 
 p {

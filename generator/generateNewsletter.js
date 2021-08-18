@@ -4,8 +4,8 @@ const path = require('path')
 
 // Settings
 
-const from = new Date("2021-01-01").getTime();
-const to = new Date("2021-02-01").getTime();
+const from = new Date("2021-06-01").getTime();
+const to = new Date("2021-06-30").getTime();
 
 const month = "June"
 const year = "2021"
@@ -56,9 +56,11 @@ async function buildNewsletter() {
                         <!-- INTRODUCTION -->
     
                         <tr>
-                            <td>
-                                <img src="https://thefall.org/news/pics/mpollard_photos/20_nsg.jpg" style="border-bottom-left-radius: 5px;
-                                            border-bottom-right-radius: 5px;">
+                            <td style="height: 300px; 
+                                       background-image: url('https://images.unsplash.com/photo-1608560670438-87b1c9570a85?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHJlY29yZHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+                                       border-bottom-right-radius: 10px;
+                                       border-bottom-left-radius: 10px;">
+                                
                             </td>
                         </tr>
     

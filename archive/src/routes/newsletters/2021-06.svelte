@@ -5,194 +5,334 @@
 <body style="margin:0; padding:0;" bgcolor="#F0F0F0" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
 <!-- 100% background wrapper (grey background) -->
-<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#fff">
-    <tr>
-        <td align="center" valign="top" bgcolor="#F0F0F0" style="background-color: #fff;">
+<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
 
-            <br>
+    <tr>
+        <td align="center" valign="top" bgcolor="#F0F0F0" style="background-color: #ffffff;">
 
             <!-- 600px container (white background) -->
             <table border="0" width="600" cellpadding="0" cellspacing="0" class="container">
+
+                <!-- INTRODUCTION -->
+
                 <tr>
-                    <td class="container-padding header" align="left">
-                        Audioxide
+                    <td style="height: 300px;
+                                       background-image: url('https://audioxide-wiki.neocities.org/Images/wolf-alice-promo-shot.jpeg');
+                                       border-bottom-right-radius: 10px;
+                                       border-bottom-left-radius: 10px;">
+
                     </td>
                 </tr>
+
                 <tr>
-                    <td class="container-padding content" align="left">
-                        <br>
-                        <div class="title">May 02021</div>
-                        <div class="title-blurb">Cheddar cheese and Brighton rocks</div>
-                        <br>
+                    <td>
+                        <img src="https://raw.githubusercontent.com/audioxide/brand/main/assets/png/bordered-emblem-black-and-white.png"
+                             style="width: 20%;
+                                           margin-left: auto;
+                                           margin-right: auto;
+                                           margin-top: -70px;
+                                           display: block;
+                                           filter: drop-shadow(0 0 0.6rem rgb(90, 90, 90));">
+                    </td>
+                </tr>
 
-                        <div class="body-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat felis sed euismod blandit. Donec ac iaculis velit.</p>
-                            <p> Maecenas cursus leo vel dui ullamcorper tincidunt. Pellentesque at massa sed ex lobortis volutpat. Aenean lorem arcu, ornare sed urna nec, aliquam euismod eros. Donec nisi arcu, fermentum at accumsan at, condimentum eu lorem. Non mollis dui cursus et. In et efficitur leo.</p>
-                            <p>Mauris eu sapien ac urna fermentum lacinia. Nam eu egestas massa, nec aliquam lorem. Vestibulum molestie metus ant.</p>
-                            <p>Be well,</p>
-                            <p>André, Fred, and Andrew </p>
-                        </div>
+                <tr>
+                    <td class="container-padding opening-blurb" align="left">
+                        <p style="text-align: center; margin-bottom: -20px;">June 02021</p>
+                        <h2>True Blues</h2>
+                        <p></p>
+                        <p>It's been a low-key month with some breathtaking music.</p>
+                        <p>Joni Mitchell's <i><strong>Blue</strong></i> turned 50, which was all the excuse we needed to listen together. What an album, what an artist, what a voice. Just wonderful. Singer-songwriters don't get much better.</p>
+                        <p>That was followed by a contemporary release - <i><strong>Blue Weekend</strong></i> by Wolf Alice. We're huge fans of the band, but were wary going in having heard the singles. We needn't have worried. It's a smashing album and they've  surely cemented their status as the best band in Britain.</p>
+                        <p>To round things off we finally got a White Stripes record under our belts. <i><strong>White Blood Cells</strong></i> is hardly a classic, but it's classic White Stripes. Who in their right mind would want to change that?</p>
+                        <p>Elsewhere another Funnyfarm entry appeared, and a few more album artwork stories made it into the database. Nothing to report on the site development front, but we'll hopefully have a big, big update next time.</p>
+                        <p>André, Fred, and Andrew</p>
+                    </td>
+                </tr>
 
-                        <hr />
-                        <!-- ALBUM REVIEWS -->
+                <tr class="spacer">
+                    <td>
+                        <!-- SPACER -->
+                    </td>
+                </tr>
+                <!-- REVIEWS -->
 
-                        <section>
-
-                            <h2>Album Reviews</h2><table width="204" border="0" cellpadding="0" cellspacing="0" align="left" class="force-row">
+                <tr style="background-color: white;">
+                    <td class="container-padding">
+                        <table>
                             <tr>
-                                <td class="col" valign="top">
-                                    <img class="album-artwork"
-                                         src=https://audioxide.com/api/images/album-artwork/blue-joni-mitchell-medium-square.jpg
-                                         style="border: 3px solid #022158;">
+                                <td class="section-header" align="left">
+                                    <h3><span class="section-header-wrap">Reviews</span></h3>
                                 </td>
                             </tr>
-                        </table>
-
-                            <table width="284" border="0" cellpadding="0" cellspacing="0" align="right" class="force-row">
-                                <tr>
-                                    <td class="col" valign="top">
-                                        <h3 class="review-album" style="color: #022158;">Blue</h3>
-                                        <h3 class="review-artist">Joni Mitchell</h3>
-                                        <p class="review-summary">‘The early 1970s was a golden era for singer-songwriters, but this stands alongside the very best. The beauty of Mitchell’s songwriting lies in its sheer simplicity. Arrangements are sparse, with often just a lone guitar or piano accompanying the sublime vocal performances.’</p>
-                                        <span class="review-link"><a href="https://audioxide.com/reviews/joni-mitchell-blue/">Full
-                    review</a> →</span>
-                                    </td>
-                                </tr>
-                            </table>
-
-                            <hr class="invisible-divider">
-                            <br />
-                            <br /><table width="204" border="0" cellpadding="0" cellspacing="0" align="left" class="force-row">
-                            <tr>
-                                <td class="col" valign="top">
-                                    <img class="album-artwork"
-                                         src=https://audioxide.com/api/images/album-artwork/blue-weekend-wolf-alice-medium-square.jpg
-                                         style="border: 3px solid #11b8ce;">
+                            <tr class="spacer">
+                                <td>
+                                    <!-- SPACER -->
                                 </td>
-                            </tr>
-                        </table>
+                            </tr><tr>
+                            <td>
+                                <!--[if mso]>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr><td width="50%" valign="top"><![endif]-->
 
-                            <table width="284" border="0" cellpadding="0" cellspacing="0" align="right" class="force-row">
-                                <tr>
-                                    <td class="col" valign="top">
-                                        <h3 class="review-album" style="color: #11b8ce;">Blue Weekend</h3>
-                                        <h3 class="review-artist">Wolf Alice</h3>
-                                        <p class="review-summary">‘Ellie Rowsell’s customary drift between spoken-word musings and operatic soarings is alive and well, and the band as a whole is as simpatico as ever - if not moreso. Their gifts are just in service of gentler shapes this time around.’</p>
-                                        <span class="review-link"><a href="https://audioxide.com/reviews/wolf-alice-blue-weekend/">Full
-                    review</a> →</span>
-                                    </td>
-                                </tr>
-                            </table>
+                                <table width="215" border="0" cellpadding="0" cellspacing="0" align="left"
+                                       class="force-row">
+                                    <tr>
+                                        <td class="col" valign="top">
+                                            <img src="https://audioxide.com/api/images/album-artwork/blue-joni-mitchell-medium-square.jpg"
+                                                 alt="Album artwork of 'Blue' by Joni Mitchell"
+                                                 class="album-artwork" style="border: 3px solid #022158;">
+                                        </td>
+                                    </tr>
+                                </table>
 
-                            <hr class="invisible-divider">
-                            <br />
-                            <br /><table width="204" border="0" cellpadding="0" cellspacing="0" align="left" class="force-row">
-                            <tr>
-                                <td class="col" valign="top">
-                                    <img class="album-artwork"
-                                         src=https://audioxide.com/api/images/album-artwork/white-blood-cells-the-white-stripes-medium-square.jpg
-                                         style="border: 3px solid #bc2711;">
-                                </td>
-                            </tr>
-                        </table>
+                                <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
 
-                            <table width="284" border="0" cellpadding="0" cellspacing="0" align="right" class="force-row">
-                                <tr>
-                                    <td class="col" valign="top">
-                                        <h3 class="review-album" style="color: #bc2711;">White Blood Cells</h3>
-                                        <h3 class="review-artist">The White Stripes</h3>
-                                        <p class="review-summary">‘The record listens like rock music’s answer to an ice-cold six-pack of decentish lager. What goes on is unrefined, but that only adds to the pleasure of a cheap and cheerful good time.’</p>
-                                        <span class="review-link"><a href="https://audioxide.com/reviews/the-white-stripes-white-blood-cells/">Full
-                    review</a> →</span>
-                                    </td>
-                                </tr>
-                            </table>
-
-                            <hr class="invisible-divider">
-                            <br />
-                            <br />
-                            <hr class="invisible-divider">
-
-                            <hr />
-                            <section>
-                                <section>
-
-                                    <h2>Artwork Stories</h2>
-
-                                    <p class="body-text">We added 24 album artwork credits to the database this month. Not all masterpieces, but not half bad, etc.</p>
-
-                                    <div class="artwork-story-box">
-                                        <div class="one">
-                                            <a href="#">
-                                                <img class="artwork-story-image"
-                                                     src="https://audioxide.com/api/images/album-artwork/straight-outta-compton-nwa-medium-square.jpg"
-                                                     style="border: 3px solid black;">
-                                            </a>
-                                        </div>
-                                        <div class="two">
-                                            <a href="#">
-                                                <img class="artwork-story-image"
-                                                     src="https://audioxide.com/api/images/album-artwork/on-the-beach-neil-young-medium-square.jpg"
-                                                     style="border: 3px solid lightblue;">
-                                            </a>
-                                        </div>
-                                        <div class="three">
-                                            <a href="#">
-                                                <img class="artwork-story-image"
-                                                     src="https://audioxide.com/api/images/album-artwork/in-utero-nirvana-medium-square.jpg"
-                                                     style="border: 3px solid darkred;">
-                                            </a>
-                                        </div>
-                                        <div class="four">
-                                            <a href="#">
-                                                <img class="artwork-story-image"
-                                                     src="https://audioxide.com/api/images/album-artwork/the-specials-the-specials-medium-square.jpg"
-                                                     style="border: 3px solid black;">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi. Nam semper ultricies erat, et hendrerit ligula sagittis non. Integer ac enim eu leo aliquam luctus.</p>
-
-                                    <hr class="invisible-divider">
-
-                                </section>
-
-                                <hr />
-
-                                <!-- SITE DEVELOPMENT -->
-
-                                <section>
-
-                                    <h2>Site Development</h2>
-
-                                    <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi. Nam semper ultricies erat, et hendrerit ligula sagittis non. Integer ac enim eu leo aliquam luctus.</p>
-
-                                    <img src="https://audioxide-wiki.neocities.org/Images/abbey-road-album-credit.png">
-
-                                    <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi. Nam semper ultricies erat, et hendrerit ligula sagittis non. Integer ac enim eu leo aliquam luctus.</p>
-
-                                    <p class="body-text">In hac habitasse platea dictumst. Suspendisse potenti. Aliquam ornare quis leo in suscipit. Cras at egestas nisi.</p>
-
-                                </section>
+                                <table width="355" border="0" cellpadding="0" cellspacing="0" align="right"
+                                       class="force-row">
+                                    <tr>
+                                        <td class="col" valign="top">
+                                            <div class="review-info">
+                                                <h4 class="review-album-name" style="color: #022158;">Blue</h4>
+                                                <h4>Joni Mitchell</h4>
+                                                <p class="review-summary">‘The early 1970s was a golden era for singer-songwriters, but this stands alongside the very best. The beauty of Mitchell’s songwriting lies in its sheer simplicity. Arrangements are sparse, with often just a lone guitar or piano accompanying the sublime vocal performances.’</p>
+                                                <p><a href="https://audioxide.com/reviews/joni-mitchell-blue/">Read full review</a> →</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
 
                                 <!--[if mso]></td></tr></table><![endif]-->
 
 
                                 <!--/ end example -->
 
+                                <div class="hr" style="clear: both;">&nbsp;</div>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <!--[if mso]>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr><td width="50%" valign="top"><![endif]-->
+
+                                    <table width="215" border="0" cellpadding="0" cellspacing="0" align="left"
+                                           class="force-row">
+                                        <tr>
+                                            <td class="col" valign="top">
+                                                <img src="https://audioxide.com/api/images/album-artwork/blue-weekend-wolf-alice-medium-square.jpg"
+                                                     alt="Album artwork of 'Blue Weekend' by Wolf Alice"
+                                                     class="album-artwork" style="border: 3px solid #11b8ce;">
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
+
+                                    <table width="355" border="0" cellpadding="0" cellspacing="0" align="right"
+                                           class="force-row">
+                                        <tr>
+                                            <td class="col" valign="top">
+                                                <div class="review-info">
+                                                    <h4 class="review-album-name" style="color: #11b8ce;">Blue Weekend</h4>
+                                                    <h4>Wolf Alice</h4>
+                                                    <p class="review-summary">‘Ellie Rowsell’s customary drift between spoken-word musings and operatic soarings is alive and well, and the band as a whole is as simpatico as ever - if not moreso. Their gifts are just in service of gentler shapes this time around.’</p>
+                                                    <p><a href="https://audioxide.com/reviews/wolf-alice-blue-weekend/">Read full review</a> →</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]></td></tr></table><![endif]-->
+
+
+                                    <!--/ end example -->
+
+                                    <div class="hr" style="clear: both;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!--[if mso]>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr><td width="50%" valign="top"><![endif]-->
+
+                                    <table width="215" border="0" cellpadding="0" cellspacing="0" align="left"
+                                           class="force-row">
+                                        <tr>
+                                            <td class="col" valign="top">
+                                                <img src="https://audioxide.com/api/images/album-artwork/white-blood-cells-the-white-stripes-medium-square.jpg"
+                                                     alt="Album artwork of 'White Blood Cells' by The White Stripes"
+                                                     class="album-artwork" style="border: 3px solid #bc2711;">
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
+
+                                    <table width="355" border="0" cellpadding="0" cellspacing="0" align="right"
+                                           class="force-row">
+                                        <tr>
+                                            <td class="col" valign="top">
+                                                <div class="review-info">
+                                                    <h4 class="review-album-name" style="color: #bc2711;">White Blood Cells</h4>
+                                                    <h4>The White Stripes</h4>
+                                                    <p class="review-summary">‘The record listens like rock music’s answer to an ice-cold six-pack of decentish lager. What goes on is unrefined, but that only adds to the pleasure of a cheap and cheerful good time.’</p>
+                                                    <p><a href="https://audioxide.com/reviews/the-white-stripes-white-blood-cells/">Read full review</a> →</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]></td></tr></table><![endif]-->
+
+
+                                    <!--/ end example -->
+
+                                    <div class="hr-white" style="clear: both;">&nbsp;</div>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+
+                <tr class="spacer">
+                    <td>
+                        <!-- SPACER -->
+                    </td>
+                </tr>
+
+                <tr class="spacer">
+                    <td>
+                        <!-- SPACER -->
+                    </td>
+                </tr>
+
+                <!-- FUNNYFARM -->
+
+                <tr style="background-color: white;">
+                    <td class="container-padding">
+                        <table>
+                            <tr>
+                                <td class="section-header" align="left">
+                                    <h3><span class="section-header-wrap">Funnyfarm</span></h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 20px 0;">
+                                    <div style="width: 40%; float: left;">
+                                        <img src="https://audioxide.com/api/images/funnyfarm-images/9-believe-the-hype-xlarge-original.jpg"
+                                             class="funnyfarm-image">
+                                    </div>
+                                    <div style="width: 56%; float: right;">
+                                        <h4>XI: Believe the Hype</h4>
+                                        <p style="font-style: italic;">In which postmodern literature finally finds meaning.</p>
+                                        <p><a href="#">Read episode</a> →</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr class="spacer">
+                    <td>
+                        <!-- SPACER -->
+                    </td>
+                </tr>
+
+                <tr class="spacer">
+                    <td>
+                        <!-- SPACER -->
+                    </td>
+                </tr>
+
+                <!-- ARTWORK STORIES -->
+
+                <tr style="background-color: white;">
+                    <td class="container-padding">
+                        <table>
+                            <tr>
+                                <td class="section-header" align="left">
+                                    <h3><span class="section-header-wrap">Artwork stories</span></h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>We're in the process of crediting the artwork designer(s) of every album we've reviewed, and telling the stories behind them where possible. We only managed to add seven this month, but there were some cracking ones in their ranks. Select them and see.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    <img src="https://audioxide.com/api/images/album-artwork/unknown-pleasures-joy-division-medium-square.jpg"
+                                                         alt="Album artwork alt text" class="story-artwork"
+                                                         style="border: 3px solid #000000;">
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="#">
+                                                    <img src="https://audioxide.com/api/images/album-artwork/ghosteen-nick-cave-and-the-bad-seeds-medium-square.jpg"
+                                                         alt="Album artwork alt text" class="story-artwork" style="border: 3px solid #000000;
+                                                   margin: auto;
+                                                   display: block;">
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="#">
+                                                    <img src="https://audioxide.com/api/images/album-artwork/titanic-rising-weyes-blood-medium-square.jpg"
+                                                         alt="Album artwork alt text" class="story-artwork" style="border: 3px solid #3b1415;
+                                                   float: right;">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus, est
+                                        eu tristique
+                                        molestie, velit sem finibus nibh, interdum tempor felis enim in ante.
+                                        Maecenas nisi
+                                        libero, faucibus sit amet augue et, elementum venenatis tellus.</p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+
+                <tr class="spacer">
+                    <td>
+                        <!-- SPACER -->
+                    </td>
+                </tr>
+
+                <!-- FOOTER -->
+
                 <tr>
                     <td class="container-padding footer-text" align="left">
                         <br><br>
-                        &copy; Audioxide. All rights reserved.
+                        &copy; Audioxide. All rights reserved. <a href="#">Newsletter powered by EmailOctopus</a>.
                         <br><br>
 
-                        You are receiving this newsletter because you opted in on our website, or perhaps someone with your
-                        email address wanted you to suffer. Update your <a href="#">email
-                        preferences</a> or <a href="#">unsubscribe</a>.
+                        You are receiving this newsletter because you opted in on our website, or perhaps someone
+                        with your email address wanted you to suffer. In any case you can <a href="#">unsubscribe
+                        from this list</a>.
                         <br><br>
 
-                        <a href="https://www.audioxide.com">www.audioxide.com</a><br>
+                        <strong>Acme, Inc.</strong><br>
+                        <span class="ios-footer">
+                123 Main St.<br>
+                Springfield, MA 12345<br>
+            </span>
+                        <a href="http://www.acme-inc.com">www.acme-inc.com</a><br>
 
                         <br><br>
 
@@ -210,46 +350,137 @@
 </body>
 
 <style>
+    /* CUSTOM STYLING. TIDY UP LATER */
+
     @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
-    @import url(//db.onlinewebfonts.com/c/4387b781fdcc752283b72bdc76757065?family=All+Round+Gothic);
 
-    h1, h2, h3, h4, h5, h6,
-    .header,
-    .title,
-    .subtitle,
-    .footer-text,
-    .title-blurb,
-    .review-link,
-    .test {
-        font-family: 'Source Sans Pro', sans-serif;
+    .section-header {
+        text-align: center;
+        background-color: white;
+        color: #f5f5f5;
+        border-radius: 5px;
+    }
+
+    .section-header-wrap {
+        background-color: black;
+        padding: 15px 25px;
+        border-radius: 5px;
+        filter: drop-shadow(0 0 0.3rem rgb(90, 90, 90));
+    }
+
+    .opening-blurb {
+        background-color: #ffffff;
+        line-height: 28px;
+        /*
+        clip-path: polygon(
+          0 0,
+          100% 0,
+          100% 100%,
+          0 95%
+        );
+        */
+    }
+
+    .container-padding {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .review-album-name {
+        font-style: italic;
+    }
+
+    .review-summary {
+        font-family: 'Spectral', serif;
+        font-style: italic;
+        line-height: 22px;
+    }
+
+    .album-artwork {
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .story-artwork {
+        border-radius: 5px;
+        width: 95%;
+    }
+
+    .story-artwork:hover {
+        opacity: 0.7;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 5px 0;
     }
 
     a, a:visited {
         color: #f01d4f;
     }
 
-    h2 {
-        text-align: center;
-        font-size: 24px;
-        font-weight: 500;
-    }
-
-    h3 {
-        margin: 10px 0px;
+    a:hover {
+        color: pink;
     }
 
     img {
+        -ms-interpolation-mode: bicubic;
         width: 100%;
+    }
+
+    .section {
+        padding-bottom: 40px;
+    }
+
+    .spacer {
+        background-color: white;
+        height: 30px;
+    }
+
+    .article-image {
+        border-radius: 5px;
+        margin: 0 0 10px 0;
+    }
+
+    .review-info {
+        padding-left: 30px;
+    }
+
+    .funnyfarm-image {
+        border-radius: 5px;
+    }
+
+    /* ------------------------------------------------------- */
+
+    p, h1, h2, h3, h4, h5, h6,
+    .header,
+    .title,
+    .subtitle,
+    .footer-text {
+        font-family: 'Source Sans Pro', sans-serif;
     }
 
     .header {
         font-size: 24px;
+        font-weight: bold;
         padding-bottom: 12px;
-        color: #000;
-        text-align: center;
-        text-transform: lowercase;
-        font-family: "All Round Gothic";
+        color: #DF4726;
     }
 
     .footer-text {
@@ -266,17 +497,10 @@
         max-width: 600px;
     }
 
-    .container-padding {
-        padding-left: 44px;
-        padding-right: 44px;
-    }
-
     .content {
         padding-top: 12px;
         padding-bottom: 12px;
-        border-radius: 10px;
         background-color: #ffffff;
-        /* box-shadow: 0px 0px 12px 5px #1f1f1f; */
     }
 
     code {
@@ -286,23 +510,25 @@
         font-size: 12px;
     }
 
+    hr {
+        border: 0;
+        border-bottom: 1px solid #000000;
+    }
+
+    .hr {
+        height: 1px;
+        border-bottom: 2px solid #f5f5f5;
+        margin: 15px 0;
+    }
+
+    .hr-white {
+        border-bottom: 2px solid #ffffff;
+    }
+
     .title {
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: 600;
         color: #374550;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-    .title-blurb {
-        font-size: 24px;
-        font-weight: 700;
-        color: #374550;
-        text-align: center;
-    }
-
-    .opening-blurb {
-        font-size: 16px;
     }
 
     .subtitle {
@@ -310,22 +536,20 @@
         font-weight: 600;
         color: #2469A0;
     }
-
     .subtitle span {
         font-weight: 400;
         color: #999999;
     }
 
     .body-text {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 15px;
-        line-height: 22px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
         text-align: left;
         color: #333333;
     }
 
     .col {
-        font-family: 'Spectral', serif;
         font-size: 14px;
         line-height: 20px;
         text-align: left;
@@ -343,112 +567,7 @@
         line-height: inherit !important;
     }
 
-    /* LAYOUT */
-
-    hr {
-        background: #f5f5f5;
-        border: 0;
-        height: 2px;
-        width: 95%;
-        margin: 20px 0px;
-    }
-
-    .invisible-divider {
-        clear: both;
-        background: none;
-        margin: 0px;
-    }
-
-    .spacer {
-        padding: 50px;
-    }
-
-    /* ALBUM REVIEWS */
-
-    .album-artwork {
-        width: 100%;
-        border-radius: 5px;
-    }
-
-    .review-album {
-        font-size: 20px;
-        font-style: italic;
-    }
-
-    .review-artist {
-        font-size: 18px;
-        font-weight: 500;
-    }
-
-    .review-summary {
-        font-style: italic;
-        font-size: 15px;
-        line-height: 22px;
-    }
-
-    .review-link {
-        font-weight: 500;
-        font-size: 15px;
-    }
-
-    /* ARTICLES */
-
-    .article-card {
-
-    }
-
-    .article-image {
-        width: 100%;
-        border-radius: 10px;
-    }
-
-    .article-title {
-        font-weight: 500;
-    }
-
-    .article-link {
-        font-weight: 500;
-        font-size: 15px;
-        font-family: 'Source Sans Pro', sans-serif;
-    }
-
-    /* ARTWORK STORIES */
-
-    .artwork-story-box {
-        display: flex;
-        width: 98%;
-    }
-
-    .one {
-        flex: 1 1 auto;
-        padding-right: 5px;
-    }
-
-    .two {
-        flex: 1 1 auto;
-        padding: 0px 5px;
-    }
-
-    .three {
-        flex: 1 1 auto;
-        padding: 0px 5px;
-    }
-
-    .four {
-        flex: 1 1 auto;
-        padding-left: 5px;
-    }
-
-    .artwork-story-image {
-        width: 100%;
-        border-radius: 5px;
-    }
-
-    .artwork-story-image:hover {
-        opacity: 0.8;
-    }
-
-    /* RESPONSIVE.CSS */
+    /* RESPONSIVE */
 
     body {
         margin: 0;
@@ -488,10 +607,6 @@
         mso-table-rspace: 0pt;
     }
 
-    img {
-        -ms-interpolation-mode: bicubic;
-    }
-
     .yshortcuts a {
         border-bottom: none !important;
     }
@@ -502,11 +617,17 @@
             width: 100% !important;
             max-width: 100% !important;
         }
+        .review-info {
+            padding-left: 0;
+        }
     }
     @media screen and (max-width: 400px) {
         .container-padding {
             padding-left: 12px !important;
             padding-right: 12px !important;
+        }
+        .review-info {
+            padding-left: 0;
         }
     }
     .ios-footer a {
