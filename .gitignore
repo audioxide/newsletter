@@ -1,5 +1,6 @@
 
 .metals/metals.h2.db
 .metals/metals.log
+.idea
 null/scalameta/metals/cache/global.log
 .DS_Store

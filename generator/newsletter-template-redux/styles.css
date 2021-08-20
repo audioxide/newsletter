@@ -1,0 +1,200 @@
+/* FOUNDATIONS */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    line-height: 150%;
+}
+
+img {
+    width: 100%;
+}
+a {
+    color: #f01d4f;
+}
+
+a:hover {
+    color: pink;
+}
+
+.container {
+    width: 600px;
+    max-width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+/* LAYOUT */
+
+.section-heading, .title, .month {
+    text-align: center;
+}
+
+.section-heading {
+    color: #f5f5f5;
+    background-color: #282828;
+    padding: 10px;
+    filter: drop-shadow(0 0 0.6rem rgb(180, 180, 180));
+}
+
+.newsletter-section {
+    padding-bottom: 50px;
+}
+
+.container-padding {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.hr {
+    height: 1px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* INTRODUCTION */
+
+.lead-image {
+    height: 300px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-size: cover;
+}
+
+.audioxide-emblem {
+    width: 15%;
+    margin: -50px auto 15px;
+    display: block;
+    filter: drop-shadow(0 0 0.6rem rgb(90, 90, 90));
+}
+
+.month {
+    margin-bottom: 5px;
+}
+
+/* REVIEWS */
+
+.review-image {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.review-album-name {
+    font-style: italic;
+}
+
+.review-summary {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+}
+
+/* ARTWORK STORIES */
+
+.artwork-story-image {
+    border-radius: 5px;
+    width: 95%;
+}
+
+.artwork-story-image:hover {
+    opacity: 0.7;
+}
+
+/* FOOTER */
+
+.footer-text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #aaaaaa;
+}
+.footer-text a {
+    color: #aaaaaa;
+}
+
+/* TBD */
+
+a[href^="x-apple-data-detectors:"],
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+table {
+    border-spacing: 0;
+}
+
+table td {
+    border-collapse: collapse;
+}
+
+.ExternalClass {
+    width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+}
+
+.ReadMsgBody {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+table {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+.yshortcuts a {
+    border-bottom: none !important;
+}
+
+@media screen and (max-width: 599px) {
+    .force-row,
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .container-padding {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
+.ios-footer a {
+    color: #aaaaaa !important;
+    text-decoration: underline;
+}
