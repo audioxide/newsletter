@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/rounded-elegance');
 
 * {
     margin: 0;
@@ -20,6 +21,10 @@ body {
 p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
     line-height: 150%;
+}
+
+h4 {
+    font-size: 22px;
 }
 
 img {
@@ -47,14 +52,24 @@ a:hover {
 }
 
 .section-heading {
-    color: #f5f5f5;
-    background-color: #282828;
-    padding: 10px;
-    filter: drop-shadow(0 0 0.6rem rgb(180, 180, 180));
+    color: #fff;
+    margin-top: -20px;
+    margin-bottom: 60px;
+    font-family: 'Rounded Elegance', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+}
+
+.section-heading-wrapper {
+    background-color: #000;
+    filter: drop-shadow(0 0 0.3rem rgb(180, 180, 180));
+    padding: 20px 40px;
+    border-radius: 30px;
 }
 
 .newsletter-section {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .container-padding {
@@ -69,7 +84,8 @@ hr {
 
 .hr {
     height: 1px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 3px solid #f5f5f5;
+    margin: 35px 0;
 }
 
 /* INTRODUCTION */
@@ -79,6 +95,25 @@ hr {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     background-size: cover;
+    position: relative;
+}
+
+.lead-image-credit {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+    color: #f5f5f5;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    /*background-color: lightgray;*/
+    opacity: 0.8;
+}
+
+.lead-image-credit:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .audioxide-emblem {
@@ -89,18 +124,28 @@ hr {
 }
 
 .month {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Rounded Elegance', sans-serif;
 }
 
 /* REVIEWS */
 
 .review-image {
     border-radius: 5px;
-    margin-bottom: 15px;
+}
+
+.review-info {
+    padding-left: 30px;
 }
 
 .review-album-name {
     font-style: italic;
+    margin-bottom: 0px;
+}
+
+.review-artist-name {
+    font-size: 20px;
 }
 
 .review-summary {
@@ -108,15 +153,53 @@ hr {
     font-style: italic;
 }
 
+.review-divider {
+    clear: both;
+}
+
+/* ARTICLES */
+
+.article-image {
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* INTERVIEWS */
+
+.interview-pullquote {
+    font-style: italic;
+    font-family: 'Spectral', serif;
+}
+
+.interview-image {
+    border-radius: 5px;
+}
+
+/* INTERVIEWS */
+
+.funnyfarm-image {
+    border-radius: 5px;
+}
+
 /* ARTWORK STORIES */
+
+.artwork-story-grid-container {
+    padding-bottom: 15px;
+}
 
 .artwork-story-image {
     border-radius: 5px;
-    width: 95%;
+    width: 90%;
 }
 
 .artwork-story-image:hover {
     opacity: 0.7;
+}
+
+/* SITE DEVELOPMENT */
+
+.site-dev-image {
+    margin-bottom: 15px;
 }
 
 /* FOOTER */
@@ -186,6 +269,10 @@ img {
     .container {
         width: 100% !important;
         max-width: 100% !important;
+    }
+    .review-info {
+        padding-left: 0;
+        padding-top: 20px;
     }
 }
 @media screen and (max-width: 400px) {
