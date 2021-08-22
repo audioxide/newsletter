@@ -4,10 +4,10 @@ const path = require('path')
 
 // Settings
 
-const from = new Date("2021-07-01").getTime();
-const to = new Date("2021-08-01").getTime();
+const from = new Date("2021-05-01").getTime();
+const to = new Date("2021-06-01").getTime();
 
-const month = "July"
+const month = "May"
 const year = "2021"
 
 const reviewsJson = 'https://api.audioxide.com/reviews.json';
